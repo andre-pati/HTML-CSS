@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+Em HTML é id = em CSS é #
+*identificador - apenas um elemento
+Em HTML é class = em css é .
+*classificador - para uma classe de elementos (varios)
+-----------------------------------------------
+Pela regra do W3C não pode usar o mesmo id dentro do mesmo HTML.
+*/
+body{
+    background-color: rgb(171, 255, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkgreen;
+}
+#principal{
+    text-align: center;
+    color: #ffffff;
+    background-color: #023b09;
+}
+h2{
+    color: rgb(48, 79, 47);
+}
+.basico{
+    color: #02992f;
+    font-weight: bold;
+}   
+
+.intermediario{
+    color: #dbcd05;
+    font-weight: bold;
+    
+}
+
+.avançado{
+    color: #f70505;
+    font-weight: bold;
+    
+}
+.destaque{
+    background-color: #dad046a8;
+}

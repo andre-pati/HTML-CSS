@@ -1,0 +1,82 @@
+@charset "utf-8";
+Body{
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    margin: auto;
+}
+header{
+    height: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px #0000002d;
+}
+}
+header h1{
+    font-size: xx-large;
+}
+nav{
+    background-color: grey;
+    box-shadow: 2px 1px 2px 1px #00000073;
+    padding: 2px;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 4px;
+
+}
+nav > a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px #0000002d;
+}
+article{
+    background-color: lightgray;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+article > aside{
+    background-color: #9b9b9b38;
+    font-size: small;
+    
+}
+aside > p{
+    text-align: right;
+    padding: 5px 20px;
+}
+article > p{
+    text-align: justify;
+    text-indent: 25px;
+}
+footer{
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px #0000002d;
+}
+
+footer > p{
+    text-align: center;
+    font-size: smaller;
+    padding: 2px;
+}
+div#bola{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    margin: 10px auto;
+    border-radius: 50%;
+    
+}

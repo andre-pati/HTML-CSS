@@ -1,0 +1,167 @@
+@charset "utf-8";
+@font-face {
+    font-family: "droid";
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+body{
+    background-color: #89CDA5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+header{
+    background-image: linear-gradient(to bottom, #5ABB7B, #348253, #20633D, #1A5A37);
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #00000036;
+}
+header > h1{
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+}
+header > h2{
+    color: #FFFFFF;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    color: #ff0000;
+}
+main{
+    width: 900px;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 1px #00000034;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+#primeira-seçao{
+    padding: 20px;
+}
+#primeira-seçao > h1{
+    font-family: droid,Arial, Helvetica, sans-serif;
+    color: #1A5A37;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#primeira-seçao > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+#primeira-seçao > p > a{
+    color: #348253;
+    text-decoration: none;
+}
+#primeira-versao > h2{
+    font-family: droid,Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #5abb7b, #FFFFFF);
+    color: #1A5A37;
+    text-align: left;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+#primeira-versao > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+#primeira-versao > p > a{
+    color: #348253;
+    text-decoration: none;
+
+}
+#primeira-versao > picture{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#surge-novo-mascote > h2{
+    font-family: droid,Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #5abb7b, #FFFFFF);
+    color: #1A5A37;
+    text-align: left;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+#surge-novo-mascote > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+#surge-novo-mascote > p > a{
+    color: #348253;
+    text-decoration: none; 
+}
+#surge-novo-mascote > picture {
+    margin-bottom: 20px auto;
+}
+#ideia-principal{
+    margin-top: 10px;
+}
+#video{
+    background-color: #1A5A37;
+    margin: 10px;
+    padding: 10px;
+}
+#segunda-seçao{
+    text-align: left;
+    padding: 10px;
+}
+#quer-mais {
+    width: 840px;
+    background-color: #78bd8fc0;
+    border-radius: 10px;
+}
+#quer-mais > h3{
+    background-color: #2FA866;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+}
+#quer-mais > p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+#quer-mais > ul{
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+#final{
+   
+    text-align: justify;
+    
+}
+#final > p{
+    text-indent: 30px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+footer{
+    background-color: #1A5A37;
+}
+footer > p{
+    color: #FFFFFF;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
