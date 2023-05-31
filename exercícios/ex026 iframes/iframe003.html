@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+        }
+        p{
+            text-align: justify;
+            text-indent: 50px;
+            line-height: 1.6em;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum facere dolor. Voluptatum dolore obcaecati at tenetur corrupti impedit sit, quia hic accusantium dicta quo, natus inventore, cum adipisci alias?</p>
+
+<ul>
+    <li><a href="paginas-extra/pagina01.html" target="frame">1ª página</a></li>
+    <li><a href="paginas-extra/pagina02.html" target="frame">2ª página</a></li>
+    <li><a href="paginas-extra/pagina03.html" target="frame">3ª página</a></li>
+</ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus eos ullam quibusdam beatae quas quaerat ipsa qui maxime vitae voluptas quae, quia similique tempora voluptatem doloribus tempore nemo quam a? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, voluptates laborum cumque soluta deleniti molestias consequuntur, tempora modi, placeat optio dolor fugit facilis eligendi sequi reprehenderit incidunt illum nulla aliquam.</p>
+
+    <iframe name="frame" srcdoc="
+        <H1>Escolha uma opção acima.</H1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius laboriosam alias voluptas eum deleniti repellat praesentium distinctio error? Est eum quidem quos nesciunt esse animi eligendi adipisci consequuntur suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <img src='imagens/logo.png' width='200px'>
+    ">
+           <p>Infelizmente seu navegador não é compativel com esta tecnologia!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius laboriosam alias voluptas eum deleniti repellat praesentium distinctio error? Est eum quidem quos nesciunt esse animi eligendi adipisci consequuntur suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, earum? Rem distinctio, ex similique sapiente consequatur aut totam eaque eos ratione numquam labore alias aspernatur ipsam inventore omnis ipsum iure.</p>
+    <img src="" alt="">
+</body>
+</html>
