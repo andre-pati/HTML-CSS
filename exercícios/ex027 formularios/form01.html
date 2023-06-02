@@ -13,9 +13,10 @@
     </style>
 </head>
 <body>
-    <!--Sempre usar a tag Label para conectar a etiqueta ao campo pelo ID do campo em questão-->
+    <!--Sempre usar a tag Label para conectar a etiqueta ao campo pelo ID do campo em questão
+    O método padrão do form é o GET - envia pelo url, mas o metodo POST não aparece na url, porém os dados ainda aparecem nos cabeçalhos. Quando se envia dados por GET não pode ultrapassar 3000 bytes, post para envio de arquivos sensiveis-->
     <h1>Meu prmeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="get" autocomplete="off">
         <p><label for="inome">nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">sobrenome:</label> 
